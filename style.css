@@ -163,8 +163,77 @@ body {
  .valentines-day:hover .heart {
    transform: translateY(-50px) rotate(-45deg);
  }
+
  
  .valentines-day:hover .text {
    transform: translateY(-50px);
  }
+
+/* 📱 Responsive para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+  .envelope:before {
+    width: 180px;
+    height: 180px;
+    left: -20px;
+    top: -60px;
+  }
+
+  .envelope:after {
+    width: 250px;
+    height: 160px;
+    left: -50px;
+    top: 30px;
+  }
+
+  .heart {
+    width: 120px;
+    height: 120px;
+    top: 40px;
+  }
+
+  .heart:before,
+  .heart:after {
+    width: 120px;
+    height: 120px;
+  }
+
+  .heart:before {
+    top: -70px;
+  }
+
+  .heart:after {
+    left: 70px;
+  }
+
+  .front {
+    border-right: 130px solid #fbd2d2;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+    top: 36px;
+    left: 50px;
+  }
+
+  .front:before {
+    border-left: 130px solid #fbd2d2;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+    top: -80px;
+    left: -120px;
+  }
+
+  .front:after {
+    border-bottom: 100px solid #fce7e9;
+    border-right: 120px solid transparent;
+    border-left: 120px solid transparent;
+    top: -30px;
+    left: -120px;
+  }
+
+  .text {
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    top: 60px;
+    left: 10px;
+  }
+}
 
