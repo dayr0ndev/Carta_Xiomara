@@ -1,49 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bold');
 
-#card {
-   height:500px;
-   width:800px;
-   margin:5em auto;
-   position: fixed;
-   top: -5px;
-   left: 25%;
-   display:flex;
-   visibility:hidden;
-}
-#card h2 {
-   font-size:3em;
-   margin:5px;
-   color:pink;
-   text-align: center;
-}
-#card p {
-   font-size: 1em;
-   text-align: justify;
-   margin: 20px;
-   
-}
-
-
-.side {
-   background:#eee;
-   height:550px;
-   width:400px;
-/*    border:1px solid red; */
-   padding:10px;
-}
-.side.one {
-   width:400px;
-   background:linear-gradient(90deg, #fff, #fff 40%, #ddd);
-}
-.side.two {
-    width:400px;
-   background:linear-gradient(-90deg, #fff, #fff 40%, #f0f0f0);
-}
-
-body {
-   display: flex;
-   align-items: center;
-   justify-content: center;
    height: 100vh;
    font-family: 'Bold' ;
    background-color: #efc1c1;
